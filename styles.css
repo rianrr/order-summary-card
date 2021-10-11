@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background: hsl(225, 100%, 94%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 20vh;
+}
+
+.img img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.order-summary h2 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.order-summary p {
+  padding-top: 10px;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+.plan {
+  background: hsl(225, 100%, 98%);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.plan .container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.plan-content {
+  display: flex;
+  padding-left: 20px;
+}
+
+.music-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.annual-plan {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 5px;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+}
+
+.change-plan p a {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  margin-left: 7rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.change-plan p a:hover {
+  opacity: 0.7;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons button {
+  border: 0;
+  outline: 0;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  width: 385px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttons .submit {
+  background: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.buttons .cancel {
+  background: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: hsl(223, 47%, 23%);
+}
+
+.buttons button:hover {
+  opacity: 0.7;
+}
